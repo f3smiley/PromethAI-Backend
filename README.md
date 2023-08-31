@@ -65,6 +65,14 @@
 
 <hr>
 
+
+
+## What is it
+
+PromethAI is a Python-based AGI project that recommends  choices based on a user's goals and preferences and can modify its recommendations based on user feedback.
+
+Our focus is currently on food, but the system is extendible to any area.
+
 ## 💡 Features
 
 - Optimized for Autonomous Agents
@@ -78,23 +86,18 @@
 - Easy to use
 - Easy to deploy
 
-## 💻 Screenshots
+
+## 💻 Demo
 
 
 <p align="center">
   <a href="https://prometh.ai">
-    <img src="assets/img_5.png" alt="Description1" width="15%" height="50%" />
-    <img src="assets/img_1.png" alt="Description2" width="15%" height="50%" />
-    <img src="assets/img_2.png" alt="Description3" width="15%" height="50%" />
-    <img src="assets/img_3.png" alt="Description4" width="15%" height="50%" />
-    <img src="assets/img_4.png" alt="Description4" width="15%" height="50%" />
+    <img  src="https://promethai-public-assets.s3.eu-west-1.amazonaws.com/product_demo-min.gif"  width="25%" height="50%"/>
   </a>
 </p>
 
 
-<p align="center">
-  <a href="https://prometh.ai">Visit and sign up for the closed Beta at prometh.ai</a>
-</p>
+
 
 ## 🛣 Architecture
 <p align="center">
@@ -123,18 +126,6 @@
 
 4. Ensure that Docker and Docker Compose are installed in your system, if not, Install it from [here](https://docs.docker.com/get-docker/). 
 5. Once you have Docker Desktop running, run command : `docker-compose up promethai --build` in promethai directory. Open your browser and go to `localhost:3000` to see promethAI running.
-
-PromethAI is a Python-based AGI (artificial general intelligence) project that recommends food choices based on a user's goals and preferences, and can modify its recommendations based on user feedback.
-The project is built on top of an existing AGI project, and redone using Langchain library that uses OpenAI and Pinecone to give memory to the AI agent, and allows it to "think" before making an action (outputting text).
-
-In the modified version, which we can call "PromethAI", the original project has been adapted to focus on food recommendations. The AI agent now has the ability to suggest meal options based on a user's specified goal, 
-such as a fast meal, a tasty meal, or a healthy meal. 
-
-The agent can also suggest meal options based on a user's preferences, such as a user's favorite cuisine or a user's favorite restaurant.
-It also has the ability to retrieve a list of restaurants from Google Maps and suggest matching food options based on the user's preferences.
-
-Overall, PromethAI is a practical application of AGI technology that has the potential to help users make informed food choices based on their goals and preferences.
-
 
 
 ## Resources
